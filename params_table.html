@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block saturs %}
+{{args}}
+
+<table border="1">
+  <thead>
+    <tr>      
+        <td>Key</td>
+        <td>value</td>
+    </tr>
+  </thead>
+  </tbody>
+    {% for key, value in args %}
+    <tr>
+      
+         <td>{{key}}</td>
+         <td>{{value}}</td>
+      
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+{% endblock %}

@@ -1,0 +1,124 @@
+main{
+    background-color: orange;
+}
+
+.leftaside{
+    background-color: blue;
+}
+
+.rightaside{
+    background-color: green;
+}
+
+.title{
+    text-align: center;
+}
+
+.article{
+    text-align: center;
+}
+
+
+.btn-warning{
+    background-color: red;
+    border: 4px groove orange;
+    font-style: oblique;
+}
+
+.navbar{
+    border-radius: 0;
+    border: 0;
+    text-align: right;
+}
+
+
+
+.navbar-inverse{
+    background-color: rebeccapurple;
+    border: 4px groove gold;
+}
+
+.myBtn{
+    background-color: rebeccapurple;
+    font-style: italic;
+    border: 4px groove gold;
+}
+
+.mgallery{
+    text-align: center;
+    max-height: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rebeccapurple;
+    border: 2px groove gold;
+    padding: 10px 10px 10px 10px;
+}
+.container-fluid{
+
+}
+
+.footer{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffbff1;
+    color: black;
+    text-align: center;
+    border: 2px dotted darkred;
+    max-height: 200px;
+}
+
+.videogalerija{
+    text-align: center;
+    max-height: 100%;
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rebeccapurple;
+    border: 4px groove black;
+    padding: 10px 10px 5px 10px;
+}
+
+.mapbox{
+    text-align: center;
+    max-height: 100%;
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rebeccapurple;
+    border: 2px groove gold;
+    padding: 10px 10px 5px 10px;
+}
+.reklama{
+    text-align: center;
+    max-height: 100%;
+    max-width: 100%;
+    background-color: rebeccapurple;
+    border: 4px groove gold;
+    padding: 10px 10px 10px 10px;
+}
+
+.footerimgbox{
+    text-align: center;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+hr.new1{
+    border: 2px groove #ffccff;
+    border-radius: 10px;
+}
+
+.table-dark{
+    color: rebeccapurple;
+    border: 4px groove gold;
+}
+
+hr.new2{
+    border: 1px dashed black;
+    border-radius: 10px;
+}
