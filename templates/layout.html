@@ -1,35 +1,50 @@
 <!DOCTYPE html>
-  <head>
-    <title>Mana lapa</title>
-    <link rel="stylesheet" href="{{ url_for('static',filename='css/main.css') }}"/>
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <nav>
-          <ul class="menu">
-            <li {% if aktiva_lapa == 'home' %}
-                  class="active"
-                {% endif %}>
-                <a href="/home">Home</a></li>
-
-             <li {% if aktiva_lapa == 'about' %}
-                  class="active"
-                {% endif %}>
-                <a href="/about">About</a></li>
-
-             <li {% if aktiva_lapa == 'contacts' %}
-                  class="active"
-                {% endif %}>
-                <a href="/contacts">Contacts</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+<head>
+  <title>Mana lapa</title>
+  <link href="{{ url_for('static', filename='/js/favicon.ico') }}" rel="icon" type="image/x-icon" />
+  <script src="{{ url_for('static', filename='js/chat.js') }}"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/main.css') }}"/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+  <header>
     <div class="container">
-      {% block saturs %}
+      <nav>
+        <ul class="menu">
+          <li {% if aktiva_lapa == 'home' %}
+                class="active"
+              {% endif %}>
+              <a href="/home">Home</a></li>
 
-      {% endblock %}
+            <li {% if aktiva_lapa == 'about' %}
+                class="active"
+              {% endif %}>
+              <a href="/about">About</a></li>
+
+            <li {% if aktiva_lapa == 'contacts' %}
+                class="active"
+              {% endif %}>
+              <a href="/contacts">Contacts</a></li>
+            <li {% if aktiva_lapa == 'chats' %}
+                class="active"
+            {% endif %}>
+            <a href="/">Chat</a></li>
+            <li {% if aktiva_lapa == 'testingarea' %}
+                class="active"
+            {% endif %}>
+            <a href="/testingarea">Tests</a></li>
+        </ul>
+      </nav>
     </div>
-  </body>
+  </header>
+  <div class="container">
+    
+    {% block izvelne %}
+
+    {% endblock %}
+  </div>
+</body>
 </html>

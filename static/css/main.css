@@ -1,9 +1,76 @@
-p{
-  color: green;
-  fontsize:20px;
+.box{
+    max-width: 95%;
+    max-height: 100%;
+    padding: 10px;
+    border: 5px solid darkblue;
+    margin: auto;
 }
 
+.body{
+    margin: 100px;
+}
 
-.active> a{
-  color: red
+.active > a{
+    color: green;
+}
+
+.input{
+    margin: auto;
+    color: royalblue;
+    padding: 10px;
+    width: 50%;
+}
+
+.sutitpoga{
+    margin-left: 10px;
+    background: red
+}
+
+.col-2{
+    border: 5px solid darkblue;
+}
+
+.myBtn {
+    background-color: rebeccapurple;
+    font-style: italic;
+    border: 4px groove gold;
+}
+
+.ievade{
+    background-color: pink;
+    width: 80%;
+    border:
+     
+}
+
+.peoplebox{
+    text-align: center;
+    max-height: 100%;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-color: rebeccapurple;
+    border: 2px groove gold;
+    padding: 5px 20px 5px 20px;
+}
+
+.kolona-k{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}
+
+.meklesana{
+    color: white;
+    background-color: black;
+    width: 50%;
+    border:
+    
+}
+
+.kolona-search{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
 }

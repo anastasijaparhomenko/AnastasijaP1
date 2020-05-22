@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>RVT chats</title>
+    <link href="{{ url_for('static', filename='favicon.ico') }}" rel="icon" type="image/x-icon" />
+    <link href="{{ url_for('static', filename='favicon.ico') }}" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href=".static/css/styles.css" />
+</head>
+
+<body onload="lasiChatu();" class="body">
+    {% block saturs %}
+    {% endblock %}
+    <script src="{{ url_for('static', filename='chats2.js') }}"></script>
+</body>
+
+</html>
